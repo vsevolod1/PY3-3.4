@@ -58,6 +58,6 @@ def total_dist_file(file):
 
 
 
-print('Средняя температура: {}'.format(average_temp_file('./temps.txt')))
-print ('Бюджет на поездку: {}'.format(total_cost_file('./currencies.txt')))
-print ('Общее расстояние: {}'.format(total_dist_file('./travel.txt')))
+print('Средняя температура: {}°C'.format(average_temp_file('./temps.txt')))
+print ('Бюджет на поездку: {} руб'.format(total_cost_file('./currencies.txt')))
+print ('Общее расстояние: {} км'.format(total_dist_file('./travel.txt')))
